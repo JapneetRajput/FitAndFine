@@ -18,6 +18,7 @@ public class calorie_burnt extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calorie_burnt);
+        getSupportActionBar().hide();
 
         textView3 = (TextView)findViewById(R.id.textView3);
         editTextNumberDecimal3 = (EditText)findViewById(R.id.editTextNumberDecimal3);

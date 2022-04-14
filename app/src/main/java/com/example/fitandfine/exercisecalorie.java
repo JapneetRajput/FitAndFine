@@ -15,6 +15,7 @@ public class exercisecalorie extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercisecalorie);
+        getSupportActionBar().hide();
 
         button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {

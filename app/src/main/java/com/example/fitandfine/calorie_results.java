@@ -10,6 +10,7 @@ public class calorie_results extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calorie_results);
+        getSupportActionBar().hide();
     }
 
 

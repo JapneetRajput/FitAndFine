@@ -17,6 +17,7 @@ public class select_options extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_options);
+        getSupportActionBar().hide();
 
         button_done = findViewById(R.id.buttondone);
         button_suggest = findViewById(R.id.buttonsuggest);

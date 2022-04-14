@@ -19,6 +19,7 @@ public class suggest_exercise extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_suggest_exercise);
+        getSupportActionBar().hide();
 
         submit_button2 = (Button) findViewById(R.id.submit_button2);
         textView4 = (TextView) findViewById(R.id.textView4);
