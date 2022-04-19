@@ -14,7 +14,6 @@
         android:layout_marginBottom="16dp"
         android:gravity="center"
         android:text="Congratulations!"
-        android:textColor="#000"
         android:textSize="35dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
@@ -29,7 +28,6 @@
         android:layout_height="51dp"
         android:gravity="center"
         android:text="You have lost"
-        android:textColor="#000"
         android:textSize="35dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +41,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calories"
-        android:textColor="#000"
         android:textSize="35dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,12 +55,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
+        android:textSize="35dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.589" />
+        app:layout_constraintVertical_bias="0.521" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

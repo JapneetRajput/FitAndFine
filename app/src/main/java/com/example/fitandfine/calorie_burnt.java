@@ -9,6 +9,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.chaquo.python.PyObject;
+import com.chaquo.python.Python;
+import com.chaquo.python.android.AndroidPlatform;
+
 public class calorie_burnt extends AppCompatActivity {
     TextView textView3;
     EditText editTextNumberDecimal3, editTextNumberDecimal4, editTextNumberDecimal5;
@@ -26,6 +30,12 @@ public class calorie_burnt extends AppCompatActivity {
         editTextNumberDecimal5 = (EditText)findViewById(R.id.editTextNumberDecimal5);
 
         submit_button1 = findViewById(R.id.submit_button1);
+
+//        if(!Python.isStarted())
+//            Python.start(new AndroidPlatform(this));
+
+//        Python py = Python.getInstance();
+//        PyObject pyObj = py.getModule("script");
 
         submit_button1.setOnClickListener(new View.OnClickListener() {
             @Override
